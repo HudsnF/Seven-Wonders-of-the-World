@@ -50,10 +50,10 @@ btnMode.addEventListener('click', () => {
     containerMode.classList.toggle('dark-mode');
 
     if(sunModeActive){
-        imageButton.setAttribute('src', './img/ChangeTheme/moon-icon.svg')
+        imageButton.setAttribute('src', '../img/ChangeTheme/moon-icon.svg')
     }
     else{
-        imageButton.setAttribute('src', './img/ChangeTheme/sun-icon.svg')
+        imageButton.setAttribute('src', '../img/ChangeTheme/sun-icon.svg')
     }
 })
 
