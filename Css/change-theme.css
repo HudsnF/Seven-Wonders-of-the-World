@@ -1,0 +1,101 @@
+.dark-mode {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+.dark-mode .title h1{
+    text-shadow: 3px 3px 3px white;
+    transition: .6s;
+}
+.dark-mode .title p{
+    text-shadow: 3px 3px 3px black;
+    transition: .6s;
+}
+
+.dark-mode .header__header__nav--dark-mode{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: rotate(-50deg);
+}
+.dark-mode .header__header__nav--dark-mode:hover{
+    background-color: rgb(224, 224, 152);
+}
+
+.dark-mode .header a,
+.dark-mode .header__header__nav--btn-menu {
+    color: white;
+    text-shadow: 2px 2px 5px rgb(78, 38, 116);
+}
+
+.dark-mode .header__header__nav--btn-menu:hover {
+    box-shadow: 3px 3px 3px rgb(78, 38, 116);
+    border-bottom-right-radius: .5em;
+}
+
+.dark-mode .main__description p {
+    color: white;
+}
+
+.dark-mode .main__description {
+    border-bottom: 5px solid white;
+}
+
+.dark-mode .main__images{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .main__images h1{
+    color: white;
+    text-shadow: 1px 1px black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.dark-mode .main__images article h2 {
+    color: white;
+    text-shadow: 3px 3px 2px rgb(62, 26, 95);
+    border-top: 3px solid white;
+}
+
+.dark-mode .main__images article img {
+    box-shadow: 2px 2px 3px white;
+}
+
+.dark-mode .main__images article iframe {
+    border: none;
+    box-shadow: 4px 4px 3px white;
+    border: 2px solid black;
+}
+
+.dark-mode .main__images article p {
+    color: white;
+}
+
+.dark-mode .main__images article p span {
+    font-weight: 700;
+}
+
+.dark-mode .btn-description button {
+    border: 3px solid white;
+}
+
+.dark-mode .main__form fieldset legend{
+    color: white;
+}
+
+.dark-mode .main__form fieldset textarea{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: black;
+}
+.dark-mode .main__form .characters-div{
+    color: white;
+}
+
+.dark-mode .main__form button{
+    border: 3px solid white;
+}
+
+.footer h3 {
+    border-top: 3px solid white;
+}
